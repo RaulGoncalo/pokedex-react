@@ -1,46 +1,20 @@
 import React from 'react'
-import Header from '../components/Header'
+
+import Header from '../components/Header';
+import InputSearch from '../components/InputSearch';
+import Filter from '../components/Filter';
+
 export default function PokedexPage() {
     return (
         <>
             <Header />
+
+
             <body>
                 <div>
-                    <div id='search'>
-                        <label>Pesquise um pokemon</label>
-                        <input />
-                    </div>
 
-                    <div id="fromTo">
-                        <label>De</label>
-                        <input type="number" />
-                        <label>até</label>
-                        <input type="number" />
-                    </div>
-
-                    <div id="filter">
-                        <div>
-                            <select id="type">Type</select>
-                        </div>
-
-                        <div>
-                            <select id="Weaknesses"></select>
-                        </div>
-
-                        <div>
-                            <select id="Ability"></select>
-                        </div>
-
-                        <div>
-                            <select id="Heigth"></select>
-                        </div>
-
-                        <div>
-                            <select id="Weigth"></select>
-                        </div>
-
-                        <button>Clear</button>
-                    </div>
+                    <InputSearch />
+                    <Filter />
 
                     <div id="contentPokemon">
                         <div id="card">
