@@ -15,16 +15,16 @@ const Conatiner = styled.div`
 
 const Title = styled.p`
     font-size: 2rem;
-    font-weight: 400;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#303030;
+    color: #7c7a7a;
+    font-weight: 600;
+    font-family: poppins;
 `;
 
 export default function Header() {
     return (
         <Conatiner>
             <MdOutlineCatchingPokemon style={{ color: '#ff2020', width: '2.6rem', height: '2.6rem' }} />
-            <Title>Pokédex</Title>
+            <Title>Pokedex</Title>
         </Conatiner >
     )
 }

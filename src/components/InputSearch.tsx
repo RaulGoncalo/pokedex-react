@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { MdOutlineCatchingPokemon } from 'react-icons/md';
 
 const Conatiner = styled.div`
-    margin: 1.4rem 1.8rem;
     border-radius: 0.3rem;
 
     display: flex;
